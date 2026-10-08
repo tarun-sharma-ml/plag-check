@@ -11,6 +11,10 @@ permissions:
 jobs:
   pytest:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -18,7 +22,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: ${{ matrix.python-version }}
           cache: pip
           cache-dependency-path: requirements-dev.txt
 
@@ -29,4 +33,11 @@ jobs:
         run: python -m ruff check --select E4,E7,E9,F plagiarism_checker.py plag_remover.py tests test_plag_remover.py
 
       - name: Run tests
-        run: python -m pytest
+        run: python -m pytest --cov=plagiarism_checker --cov=plag_remover --cov-report=term-missing --cov-report=xml
+
+      - name: Upload coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-python-${{ matrix.python-version }}
+          path: coverage.xml
+          if-no-files-found: error

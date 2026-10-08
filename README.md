@@ -53,8 +53,11 @@ python plagiarism_checker.py essay.txt --threshold 0.75 --results-per-chunk 3
 ```bash
 pip install -r requirements-dev.txt   # note the -r
 python -m ruff check --select E4,E7,E9,F plagiarism_checker.py plag_remover.py tests test_plag_remover.py
-pytest
+python -m pytest --cov=plagiarism_checker --cov=plag_remover --cov-report=term-missing
 ```
+
+GitHub Actions runs the lint and test suite on Python 3.10, 3.11, and 3.12.
+Each matrix run also uploads a `coverage.xml` artifact.
 
 ## Plag remover (paraphraser)
 
