@@ -1,0 +1,73 @@
+{
+  "total_chunks": 47,
+  "skipped_chunks": 0,
+  "no_result_chunks": 24,
+  "overall_score": 19.148936170212767,
+  "coverage": 48.93617021276596,
+  "threshold": 0.8,
+  "flagged_chunks": [
+    {
+      "chunk_index": 2,
+      "chunk_text": "These approaches may fit alongside evidence-based PCOS care, but Ayurvedic treatment for PCOS should not be presented as a guaranteed cure or as a replacement for clinically indicated treatment. Current international guidance places healthy lifestyle management and individualised medical care at the centre of PCOS management. What Is PCOS (PMOS)?",
+      "best_score": 0.8100391030311584,
+      "best_source_url": "https://www.researchgate.net/publication/390458280_An_Integrative_Ayurvedic_and_Modern_Approach_to_The_Management_of_Polycystic_Ovarian_Syndrome_A_Case_Study",
+      "best_source_snippet": "Mar 18, 2025 \u00b7 Objective: To assess the effectiveness of an integrative Ayurvedic and modern medical approach in managing symptoms and improving health outcomes in a case of PCOS."
+    },
+    {
+      "chunk_index": 4,
+      "chunk_text": "PCOS is a common endocrine condition associated with features such as irregular or absent ovulation, higher androgen activity and, in some people, polycystic-appearing ovaries. The condition can also be associated with insulin resistance and a higher risk of metabolic problems. The newer term PMOS is intended to reflect that the condition involves more than the ovaries and can affect several hormonal and metabolic systems.",
+      "best_score": 0.8862593173980713,
+      "best_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9964744/",
+      "best_source_snippet": "Polycystic ovary syndrome (PCOS) is a complex endocrine and metabolic disorder, typically characterized by anovulation, infertility, obesity, insulin resistance, and polycystic ovaries."
+    },
+    {
+      "chunk_index": 6,
+      "chunk_text": "Family history, genetic factors, metabolic changes and other biological influences can contribute. Higher body weight can worsen some metabolic features, but PCOS can occur in people across the weight spectrum. This is important because body weight alone cannot confirm or rule out the condition.",
+      "best_score": 0.8072240352630615,
+      "best_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8017849/",
+      "best_source_snippet": "We hypothesize that increased body weight affects these individual phenotypic features, and having PCOS may exacerbate them. In this study, we examined the effects of BMI on individual clinical, ovari"
+    },
+    {
+      "chunk_index": 7,
+      "chunk_text": "This is important because body weight alone cannot confirm or rule out the condition. How Can Ayurvedic Treatment for PCOS Fit into Care? A practical Ayurvedic treatment for PCOS approach can focus on supportive habits rather than promising a complete cure.",
+      "best_score": 0.831897497177124,
+      "best_source_url": "https://www.deepayurveda.in/blogs/ayurveda/ayurvedic-treatment-for-pcos",
+      "best_source_snippet": "Ayurveda may be used as an individualized supportive approach involving diet, lifestyle, herbal medicines and selected therapies. However, PCOS should not be presented as a condition that can be guara"
+    },
+    {
+      "chunk_index": 12,
+      "chunk_text": "If exercise has been difficult because of pain, fatigue or another medical issue, a clinician can help you choose an appropriate starting point. Ayurvedic Diet for PCOS When considering Ayurvedic treatment for PCOS, the most useful dietary goal is consistency: choose an eating pattern you can follow over time instead of relying on short-term detoxes or highly restrictive plans. An ayurvedic diet for PCOS can be approached as a balanced, sustainable eating pattern rather than a restrictive list of \u201cgood\u201d and \u201cbad\u201d foods.",
+      "best_score": 0.8085009455680847,
+      "best_source_url": "https://www.deepayurveda.in/blogs/ayurveda/ayurvedic-treatment-for-pcos",
+      "best_source_snippet": "Ayurveda may be used as an individualized supportive approach involving diet, lifestyle, herbal medicines and selected therapies. However, PCOS should not be presented as a condition that can be guara"
+    },
+    {
+      "chunk_index": 27,
+      "chunk_text": "Ayurveda for Hormonal Balance: What Is Realistic? This balanced view is central to responsible Ayurvedic treatment for PCOS: supportive practices can be useful, while claims of guaranteed hormonal correction are not supported by current evidence. Ayurveda may provide a structured framework for healthy routines, relaxation practices and selected complementary therapies.",
+      "best_score": 0.8908066749572754,
+      "best_source_url": "https://gynoveda.com/blogs/pcos-pcod/pcos-treatment-in-ayurveda-a-complete-guide/",
+      "best_source_snippet": "Ayurveda aims to treat PCOS from its core, not only the symptoms. Ayurveda\u2019s Approach to PCOS \u2013 Focusing on Natural Hormonal Balance Ayurveda treatment focuses on restoring women\u2019s natural hormonal ba"
+    },
+    {
+      "chunk_index": 41,
+      "chunk_text": "International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome 2023. Monash University. Monash Centre for Health Research and Implementation.",
+      "best_score": 0.9138838052749634,
+      "best_source_url": "https://www.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polyendocrine-metabolic-ovarian-syndrome-2023/",
+      "best_source_snippet": "Recommendations from the international evidence-based guideline for the assessment and management of polycystic ovary syndrome. Hum Reprod 2018;33(9), 1602_18. Misso ML, Teede HJ."
+    },
+    {
+      "chunk_index": 44,
+      "chunk_text": "Kort H, Lobo RA. Preliminary evidence that cinnamon improves menstrual cyclicity in women with polycystic ovary syndrome: a randomized controlled trial. American Journal of Obstetrics & Gynecology.",
+      "best_score": 0.9700694680213928,
+      "best_source_url": "https://www.ajog.org/article/S0002-9378(14)00446-3/abstract",
+      "best_source_snippet": "Preliminary evidence that cinnamon improves menstrual cyclicity in women with polycystic ovary syndrome: a randomized controlled trial Daniel H. Kort, MD \u2219 Roger A. Lobo, MD Affiliations & Notes"
+    },
+    {
+      "chunk_index": 46,
+      "chunk_text": "Systematic reviews of curcumin/turmeric in PCOS published in peer-reviewed literature, including updated reviews through 2024. Recent systematic review literature on ashwagandha and reproductive health, noting that PCOS-specific evidence remains limited.",
+      "best_score": 0.8097604513168335,
+      "best_source_url": "https://www.sciencedirect.com/science/article/pii/S1098882324001412",
+      "best_source_snippet": "Mar 1, 2025 \u00b7 Curcumin is one of the active compounds in turmeric, which is commonly used for a wide range of metabolic and inflammatory diseases. Therefore, this systematic review was performed to ev"
+    }
+  ]
+}
